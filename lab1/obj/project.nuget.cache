@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bmlbV5QBX2gHi1Cbb70ELijRmBnA8wdF9hLC83/GYSB0IiRe7XcIyMnog2ti3SEIq5BXiZ45hliJGrs+CsvDAA==",
+  "dgSpecHash": "+JF5lr8DAwlp9WlFuHYNeHg+Un2OuVNhp7PTcDnWZREopjfHanwgn1pUJcxZIVp91IxVGNt/QE3MEvaPzVhciA==",
   "success": true,
-  "projectFilePath": "D:\\Maico Group\\TestSkill\\Lab4_DeviceShop\\lab1\\lab1.csproj",
+  "projectFilePath": "D:\\Maico Group\\TestSkill\\Lab2_MethodSameLinQ\\lab1\\lab1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
   ],

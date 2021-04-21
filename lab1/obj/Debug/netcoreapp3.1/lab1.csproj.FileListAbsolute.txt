@@ -24,3 +24,16 @@ D:\Maico Group\TestSkill\Lab4_DeviceShop\lab1\obj\Debug\netcoreapp3.1\lab1.cspro
 D:\Maico Group\TestSkill\Lab4_DeviceShop\lab1\obj\Debug\netcoreapp3.1\lab1.dll
 D:\Maico Group\TestSkill\Lab4_DeviceShop\lab1\obj\Debug\netcoreapp3.1\lab1.pdb
 D:\Maico Group\TestSkill\Lab4_DeviceShop\lab1\obj\Debug\netcoreapp3.1\lab1.genruntimeconfig.cache
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\bin\Debug\netcoreapp3.1\lab1.exe
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\bin\Debug\netcoreapp3.1\lab1.deps.json
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\bin\Debug\netcoreapp3.1\lab1.runtimeconfig.json
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\bin\Debug\netcoreapp3.1\lab1.runtimeconfig.dev.json
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\bin\Debug\netcoreapp3.1\lab1.dll
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\bin\Debug\netcoreapp3.1\lab1.pdb
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\obj\Debug\netcoreapp3.1\lab1.csprojAssemblyReference.cache
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\obj\Debug\netcoreapp3.1\lab1.AssemblyInfoInputs.cache
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\obj\Debug\netcoreapp3.1\lab1.AssemblyInfo.cs
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\obj\Debug\netcoreapp3.1\lab1.csproj.CoreCompileInputs.cache
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\obj\Debug\netcoreapp3.1\lab1.dll
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\obj\Debug\netcoreapp3.1\lab1.pdb
+D:\Maico Group\TestSkill\Lab2_MethodSameLinQ\lab1\obj\Debug\netcoreapp3.1\lab1.genruntimeconfig.cache
