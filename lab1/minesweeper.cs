@@ -93,10 +93,10 @@ namespace lab1
             }
             return;
         }
-        //khởi trạo giá trị cho vị trí, cụ thể thì vih trí =-1 thì cosmine, bằng 0 thì xung quanh không có mine, bằng >0 thì xuong quanh có mine
+        //khởi trạo giá trị cho vị trí, cụ thể thì vih trí =-1 thì có mine, bằng 0 thì xung quanh không có mine, bằng >0 thì xuong quanh có mine
         public int CreateValue(int x, int y)
         {
-            if (map[x, y] == -1)
+            if (map[x, y] == -1) 
             {
                 return -1;
             }
@@ -121,11 +121,10 @@ namespace lab1
 
             return numOfMineAround;
         }
-
-        void CreateMap(int x, int y)
+        //Khởi tạo map
+        void CreateMap(int x, int y)// cần 2 parameter để chắc chắn lần nhập đầu tiền không có mine
         {
             Random mine = new Random();
-
 
             int totalMine = 0;
 
@@ -142,7 +141,7 @@ namespace lab1
                 map[minex, miney] = -1;
                 totalMine++;
             }
-
+            // Tạo các vị trí và value còn lại
             for (int i = 0; i < 9; i++)
             {
                 for (int j = 0; j < 9; j++)
@@ -150,8 +149,10 @@ namespace lab1
                     map[i, j] = CreateValue(i, j);
                 }
             }
+            //Hiển thị các vị trí không có boom trên đường của vị trí vừa chọn
             OpenRoad(x, y);
         }
+        //Kiểm tra xem win hay chưa
         bool Win()
         {
             int location = 0;
@@ -168,7 +169,7 @@ namespace lab1
         }
         public void Game()
         {
-            PrintBoard();
+            PrintMap();// in map
 
             int x, y;
             MakeMove(out x, out y);
@@ -179,7 +180,7 @@ namespace lab1
 
                 do
                 {
-                    PrintBoard();
+                    PrintMap();
                     MakeMove(out x, out y);
 
                 } while (isChecked[x, y]);
@@ -191,31 +192,34 @@ namespace lab1
             if (gameOver)
             {
                 PrintFinal();
-                Console.WriteLine("Dẫm phải boom!\n");
+                Console.WriteLine("Dam phai Mine!\n");
             }
             else
             {
-                PrintBoard();
-                Console.WriteLine("Tránh được hết boom rồi!\n");
+                PrintMap();
+                Console.WriteLine("Tranh duoc het mine roi!\n");
             }
 
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
 
         }
-
-        private void PrintBoard()
+        // in map lên console
+        private void PrintMap()
         {
+            Console.WriteLine("  0 1 2 3 4 5 6 7 8");
             for (int i = 0; i < 9; i++)
             {
+                Console.Write("{0} ",i);
                 for (int j = 0; j < 9; j++)
                 {
+
                     Console.Write("{0} ", mapDisplay[i, j]);
                 }
                 Console.WriteLine();
             }
         }
-
+        // in map sao khi game over
         private void PrintFinal() 
         {
             Console.WriteLine();
@@ -230,7 +234,7 @@ namespace lab1
             }
         }
 
-        private void MakeMove(out int x, out int y)
+        private void MakeMove(out int x, out int y) 
         {
             do
             {
