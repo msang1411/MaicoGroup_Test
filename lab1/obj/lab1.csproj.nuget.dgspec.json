@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Maico Group\\TestSkill\\lab1\\lab1\\lab1.csproj": {}
+    "D:\\Maico Group\\TestSkill\\Lab4_DeviceShop\\lab1\\lab1.csproj": {}
   },
   "projects": {
-    "D:\\Maico Group\\TestSkill\\lab1\\lab1\\lab1.csproj": {
+    "D:\\Maico Group\\TestSkill\\Lab4_DeviceShop\\lab1\\lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Maico Group\\TestSkill\\lab1\\lab1\\lab1.csproj",
+        "projectUniqueName": "D:\\Maico Group\\TestSkill\\Lab4_DeviceShop\\lab1\\lab1.csproj",
         "projectName": "lab1",
-        "projectPath": "D:\\Maico Group\\TestSkill\\lab1\\lab1\\lab1.csproj",
+        "projectPath": "D:\\Maico Group\\TestSkill\\Lab4_DeviceShop\\lab1\\lab1.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Maico Group\\TestSkill\\lab1\\lab1\\obj\\",
+        "outputPath": "D:\\Maico Group\\TestSkill\\Lab4_DeviceShop\\lab1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.13, 3.1.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

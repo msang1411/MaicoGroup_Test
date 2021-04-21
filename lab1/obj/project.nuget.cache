@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uFCfQ714OxeemWJmRDTX2/lW/ToC2ntGU/q2zIn5H73/BJsgPIseMI1Qfqm6rD4AD+UOcsNSaYub2GZTfQs2YA==",
+  "dgSpecHash": "bmlbV5QBX2gHi1Cbb70ELijRmBnA8wdF9hLC83/GYSB0IiRe7XcIyMnog2ti3SEIq5BXiZ45hliJGrs+CsvDAA==",
   "success": true,
-  "projectFilePath": "D:\\Maico Group\\TestSkill\\lab1\\lab1\\lab1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Maico Group\\TestSkill\\Lab4_DeviceShop\\lab1\\lab1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
   "logs": []
 }
