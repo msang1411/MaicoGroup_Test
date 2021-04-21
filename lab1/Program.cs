@@ -10,9 +10,9 @@ namespace lab1
     {
         static void Main(string[] args)
         {
-            
 
-            Console.ReadKey();
+            minesweeper game = new minesweeper();
+            game.Game();
         }
     }
 }
